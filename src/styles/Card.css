@@ -1,0 +1,57 @@
+.card-container{
+    position: relative;
+    display: grid;
+    gap: 150px 250px;
+    grid-template-columns: auto auto auto;
+    font-size: 20px;
+}
+
+.card{
+    height: 150px;
+    width: 150px;
+}
+
+img{
+    height: 130px;
+    width: 130px;
+    margin-top: 10px;
+}
+
+
+  @media only screen and (max-width: 1110px) {
+    .card-container{
+        grid-template-columns: auto auto auto;
+        gap: 140px 140px;
+    }
+
+    .card {
+        height: 90px;
+        width: 90px
+      }
+  
+      img{
+          height: 90px;
+          width: 90px;
+  
+      }
+  }
+
+@media only screen and (max-width: 610px) {
+  
+    .card-container{
+        grid-template-columns: auto auto ;
+        justify-content: center;
+        gap: 100px 100px;
+    }
+    .card {
+      height: 100px;
+      width: 100px
+    }
+
+    img{
+        height: 100px;
+        width: 100px;
+
+    }
+  
+  }

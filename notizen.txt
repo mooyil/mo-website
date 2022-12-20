@@ -1,0 +1,3 @@
+= Stelle visuell dar wie die drei Komponenten miteinander kommunizieren 
+= Alle Backend Endpunkte aufzählen (bsp: Youtube Api)
+= Wie funktioniert die Anmeldung (flow beschreiben)
